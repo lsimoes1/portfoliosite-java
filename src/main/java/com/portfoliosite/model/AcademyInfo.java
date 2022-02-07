@@ -18,6 +18,7 @@ public class AcademyInfo {
     private String id;
 
     private String Nome;
+    private String Descricao;
     private Integer Tipo;
     private Integer Concluido;
     private String Imagem;
