@@ -25,7 +25,7 @@ externa, e estudos de testes unitários.
 > BaseURL: https://portfolioapisite-java.herokuapp.com
 - `Fake CredCard`: Rota que retorna um payload fake de cartão de crédito. <br>
   > /api/v1/fakeapi/{quantity}
-- `GitHub`: Rota que retorna um payload com todos meus projetos publicados no GitHub através da própria API do github. <br.
+- `GitHub`: Rota que retorna um payload com todos meus projetos publicados no GitHub através da própria API do github. <br>
   > /api/v1/github/repository
 - `PortfolioSite`: Contém 2 rotas que retornam dados de uma base de dados MongoDB com informações acadêmicas e profissional.<br>
   > /api/v1/portfoliosite/academy <br>
