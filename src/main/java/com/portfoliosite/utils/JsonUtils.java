@@ -2,6 +2,7 @@ package com.portfoliosite.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.var;
 
 public class JsonUtils {
     public static <T>Object JsonToObject(String json, Class<?> objectClass){
