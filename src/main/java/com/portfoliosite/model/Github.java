@@ -1,6 +1,5 @@
 package com.portfoliosite.model;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
@@ -12,22 +11,22 @@ import lombok.ToString;
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Github {
-    @JsonAlias("name")
+    @JsonProperty("name")
     private String NameProject;
 
-    @JsonAlias("description")
+    @JsonProperty("description")
     private String Description;
 
-    @JsonAlias("updated_at")
+    @JsonProperty("updated_at")
     private String LastUpdate;
 
-    @JsonAlias("language")
+    @JsonProperty("language")
     private String Language;
 
-    @JsonAlias("homepage")
+    @JsonProperty("homepage")
     private String HomePage;
 
-    @JsonAlias("html_url")
+    @JsonProperty("html_url")
     private String UrlRepository;
 
 }
