@@ -22,7 +22,7 @@ Implementaçao de ExceptionHandler, e utilização de uma base MongoDB
 externa, e estudos de testes unitários.
 
 ## :gear:	Funcionalidades
-
+> BaseURL: https://portfolioapisite-java.herokuapp.com
 - `Fake CredCard`: Rota que retorna um payload fake de cartão de crédito. <br>
   > /api/v1/fakeapi/{quantity}
 - `GitHub`: Rota que retorna um payload com todos meus projetos publicados no GitHub através da própria API do github. <br.
