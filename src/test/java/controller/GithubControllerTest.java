@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.portfoliosite.api.GithubController;
 import com.portfoliosite.service.impl.GithubServiceImpl;
 import com.portfoliosite.service.abs.GithubInterface;
+import lombok.var;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

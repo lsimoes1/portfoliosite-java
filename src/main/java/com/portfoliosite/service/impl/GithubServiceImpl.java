@@ -5,6 +5,7 @@ import com.portfoliosite.model.Github;
 import com.portfoliosite.service.abs.GithubInterface;
 import com.portfoliosite.utils.JsonUtils;
 import lombok.SneakyThrows;
+import lombok.var;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpStatus;
