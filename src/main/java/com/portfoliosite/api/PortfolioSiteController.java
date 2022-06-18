@@ -24,12 +24,12 @@ public class PortfolioSiteController{
     private ProfessionalRepository professionalRepository;
 
     @GetMapping("/academy")
-    public List<AcademyInfo> getAcademyInfo() throws Exception{
+    public List<AcademyInfo> getAcademyInfo() {
         return academyRepository.findAll();
     }
 
     @GetMapping("/professional")
-    public List<ProfessionalInfo> getProfessionalInfo() throws  Exception{
+    public List<ProfessionalInfo> getProfessionalInfo() {
         return professionalRepository.findAll();
     }
 }
