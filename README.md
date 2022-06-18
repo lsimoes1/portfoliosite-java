@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/maven-1.8-orange)"/></a>
+  <a><img src="https://img.shields.io/badge/maven-1.8-red"/></a>
   <a><img src="https://img.shields.io/badge/deploy-heroku-purple"/> </a>
   <a><img src="https://img.shields.io/badge/api-java 8-blue"/></a>
   <a><img src="https://img.shields.io/badge/teste%20with-JUnit-green)"/></a>
