@@ -1,5 +1,6 @@
 package com.portfoliosite.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -12,6 +13,7 @@ import java.util.Date;
 @Setter
 @ToString
 @Document("academy")
+@Data
 public class AcademyInfo {
 
     @Id
